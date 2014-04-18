@@ -65,16 +65,19 @@
    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
    
    // Configure the cell...
-   // Problem 5
+   // Problem 5 w/ Extra credit
    switch (indexPath.section) {
      case 0:
        cell.textLabel.text = @"I am in section 0";
+       cell.textLabel.textColor = [UIColor redColor];
        break;
      case 1:
        cell.textLabel.text = @"another section";
+       cell.backgroundColor = [UIColor blueColor];
        break;
      case 2:
        cell.textLabel.text = [NSString stringWithFormat:@"Cell %i", indexPath.row];
+       cell.backgroundColor = [UIColor yellowColor];
        break;
    }
    
