@@ -1,5 +1,5 @@
 //
-//  KXViewController.h
+//  KXChallengeTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Kenneth Wilcox on 4/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KXViewController : UIViewController
+@interface KXChallengeTableViewController : UITableViewController
 
 @end
